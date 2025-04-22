@@ -7,8 +7,8 @@ export default function NavigationBar() {
       <NavLink to="/" className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>Главная</NavLink>
       <NavLink to="/payments" className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>Платежи</NavLink>
       <div className="text-yellow-400">▣</div>
-      <NavLink to="/services" className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>Сервисы</NavLink>
-      <NavLink to="/more" className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>Ещё</NavLink>
+      <NavLink to="/more" className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>Сервисы</NavLink>
+      <NavLink to="/services" className={({ isActive }) => isActive ? 'text-green-500' : 'text-white'}>Ещё</NavLink>
     </nav>
   );
 }
